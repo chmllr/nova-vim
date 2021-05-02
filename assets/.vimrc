@@ -1,6 +1,6 @@
 call plug#begin()
 Plugin 'sheerun/vim-polyglot'
-Plugin 'trevordmiller/nova-vim'
+Plugin 'chmllr/nova-vim'
 call plug#end()
 
 colorscheme nova

@@ -2,7 +2,7 @@
 
 Nova color scheme plugin for Vim
 
-![Screenshot](/assets/screenshot.png?raw=true "Screenshot")
+<img src="https://raw.githubusercontent.com/chmllr/nova-vim/master/assets/screenshot.png" width="430" />
 
 ## Variables
 
