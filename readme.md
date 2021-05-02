@@ -19,4 +19,4 @@ See [contributing.md](contributing.md)
 
 ## More info
 
-**See the [documentation website](https://trevordmiller.com/projects/nova) for more information**
+Cloned from `https://github.com/trevordmiller/nova-vim`.
