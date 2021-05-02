@@ -42,7 +42,6 @@ call s:highlight_helper("WarningMsg", "${uiGroups.userActionNeeded}", "")
 call s:highlight_helper("SpellBad", "${uiGroups.userActionNeeded}", "")
 call s:highlight_helper("SpellCap", "${uiGroups.userActionNeeded}", "")
 call s:highlight_helper("Todo", "${uiGroups.userActionNeeded}", "")
-call s:highlight_helper("SignColumn", "NONE", "${uiGroups.userActionNeeded}")
 call s:highlight_helper("typescriptParenError", "${
   uiGroups.userActionNeeded
 }", "")
@@ -52,6 +51,7 @@ call s:highlight_helper("NeomakeWarningSign", "${
 }", "")
 
 " USER CURRENT STATE
+call s:highlight_helper("SignColumn", "NONE", "${uiGroups.background}")
 call s:highlight_helper("MatchParen", "${uiGroups.userCurrentState}", "")
 call s:highlight_helper("CursorLineNr", "${uiGroups.userCurrentState}", "")
 call s:highlight_helper("Visual", "${uiGroups.background}", "${

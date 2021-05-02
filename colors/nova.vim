@@ -38,12 +38,12 @@ call s:highlight_helper("WarningMsg", "#DF8C8C", "")
 call s:highlight_helper("SpellBad", "#DF8C8C", "")
 call s:highlight_helper("SpellCap", "#DF8C8C", "")
 call s:highlight_helper("Todo", "#DF8C8C", "")
-call s:highlight_helper("SignColumn", "NONE", "#DF8C8C")
 call s:highlight_helper("typescriptParenError", "#DF8C8C", "")
 call s:highlight_helper("NeomakeErrorSign", "#DF8C8C", "")
 call s:highlight_helper("NeomakeWarningSign", "#DF8C8C", "")
 
 " USER CURRENT STATE
+call s:highlight_helper("SignColumn", "NONE", "#3C4C55")
 call s:highlight_helper("MatchParen", "#7FC1CA", "")
 call s:highlight_helper("CursorLineNr", "#7FC1CA", "")
 call s:highlight_helper("Visual", "#3C4C55", "#7FC1CA")
